@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% load render_bundle from webpack_loader %}
+<html lang="en">
+<head>
+  <base href='/'>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+  <title></title>
+  {% render_bundle 'frontend' 'css' %}
+</head>
+<body>
+  <homepage/>
+  {% render_bundle 'frontend' 'js' %}
+</body>
+</html>

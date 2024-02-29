@@ -1,0 +1,61 @@
+.mainview {
+  min-height: 90vh;
+  margin-top: 0px !important;
+  max-width: 1440px;
+}
+
+.mainview-row {
+  padding-top: 0px !important;
+}
+
+.content-view {
+  /* background-image: url("../img/marblefront.png"); */
+  background-color: #F4DEF6;
+  /* background-color: #E9D1D1; */
+  padding: 0px 10px 0px 10px;
+  border-width: 3px;
+  border-color: #312045;
+  border-style: solid;
+}
+
+.textView {
+  width: 100%;
+}
+
+.header {
+  /* background-color: #AC75D3 !important; */
+  background-color: #46295D !important;
+}
+
+.limit-padding {
+  margin: 0 0 0 -10px;
+  width: calc(100% + 20px) !important;  
+}
+
+.bordered {
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+}
+
+body {
+  background-image: url("../img/background.png");
+  /* background-color: #B89454; */
+  margin: 24px;
+}
+
+.langSelector {
+  border-color: white !important;
+  color: white !important;
+}
+
+.langSelector:before {
+  border-color: white !important;
+  color: white !important;
+}
+
+.langSelector:after {
+  border-color: white !important;
+  color: white !important;
+}
+
