@@ -34,7 +34,6 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "django.forms",
-    "rest_framework",
     "webpack_loader",
     "weddingbackend",
 ]
@@ -143,11 +142,3 @@ AUTO_LOGOUT_DELAY = 360
 STATIC_URL = "/static/"
 
 STATICFILES_DIRS = (join(dirname(BASE_DIR), "assets"),)
-
-REST_FRAMEWORK = {
-    # YOUR SETTINGS
-    "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
-    "DEFAULT_AUTHENTICATION_CLASSES": [
-        "rest_framework.authentication.SessionAuthentication",
-    ],
-}
